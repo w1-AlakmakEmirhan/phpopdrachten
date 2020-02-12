@@ -6,6 +6,7 @@
  * File: Opdracht 2.1
  */
 ?>
+<!DOCTYPE html>
 <html>
 <body>
 <header>

@@ -6,6 +6,7 @@
  * File: Opdracht 2.2
  */
 ?>
+<!DOCTYPE html>
 <a href="index.php">Home</a>
 <?php
 $text1 = "Hallo";
