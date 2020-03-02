@@ -32,13 +32,13 @@ $ambulanceComing = true;
         $trafficLightColor = "groen";
         $ambulanceComing = false;
 
-        if($trafficLightColor== "groen"&& $ambulanceComing == false)
+        if($trafficLightColor== "groen" && $ambulanceComing == false)
         {
             echo("<p id='groen'>U mag doorrijden </p>");
         }
         else
         {
-            echo("<p id = rood>U moet stoppen</p>");
+            echo("<p id = 'rood'>U moet stoppen</p>");
         }
 
         ?>
@@ -48,37 +48,37 @@ $ambulanceComing = true;
         $countryName = "België";
         $currentAge = 16;
 
-        if($countryName == "België"&& $currentAge >=16 )
+        if($countryName == "België" && $currentAge >=16 )
         {
             echo "jij woont in België en je leeftijd is ".$currentAge;
             echo "<br>je mag hier alleen zwakke alcohol drinken ";
         }
-        else if($countryName == "België"&& $currentAge >=18 )
+        else if($countryName == "België" && $currentAge >=18 )
         {
             echo "jij woont in België en je leeftijd is ".$currentAge;
             echo "<br>je mag hier alle alcohol drinken ";
         }
-        else if($countryName == "Bulgarije"&& $currentAge >=18 )
+        else if($countryName == "Bulgarije" && $currentAge >=18 )
         {
             echo "jij woont in België en je leeftijd is ".$currentAge;
             echo "<br>je mag hier alle alcohol drinken ";
         }
-        else if($countryName == "Cyprus"&& $currentAge >=17 )
+        else if($countryName == "Cyprus" && $currentAge >=17 )
         {
             echo "jij woont in Cyprus en je leeftijd is ".$currentAge;
             echo "<br>je mag hier alle alcohol drinken ";
         }
-        else if($countryName == "Nederland"&& $currentAge >=18 )
+        else if($countryName == "Nederland" && $currentAge >=18 )
         {
             echo "jij woont in Nederland en je leeftijd is ".$currentAge;
             echo "<br>je mag hier alle alcohol drinken ";
         }
-        else if($countryName == "Zweden"&& $currentAge >=18 )
+        else if($countryName == "Zweden" && $currentAge >=18 )
         {
             echo "jij woont in Zweden en je leeftijd is ".$currentAge;
             echo "<br>je mag hier alleen zwakke alcohol drinken";
         }
-        else if($countryName == "Zweden"&& $currentAge >=20 )
+        else if($countryName == "Zweden" && $currentAge >=20 )
         {
             echo "jij woont in Zweden en je leeftijd is ".$currentAge;
             echo "<br>je mag hier alleen zwakke alcohol drinken";

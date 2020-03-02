@@ -6,7 +6,10 @@
  * File: Opdracht 2.1
  */
 ?>
+<!doctype html>
+<head>
     <link href="../CSS/Style.css" type="text/css" rel="stylesheet">
+</head>
 <body>
     <header>
         <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
