@@ -12,7 +12,9 @@
 
 <p>Uitwerking opdracht 3.3php
 </p>
-
+<?php
+    include '../includes/variable.php';
+?>
 <?php
     include '../includes/footer.php';
 ?>

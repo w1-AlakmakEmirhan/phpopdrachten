@@ -13,3 +13,6 @@ echo "
 </body>
 </html>";
 ?>
+<?php
+echo $name;
+?>
