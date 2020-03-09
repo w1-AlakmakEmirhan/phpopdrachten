@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <link href="../Hoopfdstuk%204/4.1%20footer%20position.css" type="text/css" rel="stylesheet">
+    <link href="../Hoofdstuk%204/4.1%20footer%20position.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <header>
