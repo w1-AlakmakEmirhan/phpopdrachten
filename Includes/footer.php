@@ -9,7 +9,6 @@
 $jaar = date("Y");
 $hournow = date('G');
 $minutesnow = date('i');
-$morning = "Goede middag";
 
 /*echo "
 <footer>&copy; $jaar $hournow:$minutesnow $morning $name</footer>
@@ -17,7 +16,8 @@ $morning = "Goede middag";
 </html>";*/
 ?>
 <?php
-include '../hoofdstuk3/variabelen.php'; ?>
+include '../Includes/variable.php';
+?>
 
 <footer>
     <?php
