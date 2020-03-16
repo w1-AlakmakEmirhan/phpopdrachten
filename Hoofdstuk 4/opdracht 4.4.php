@@ -8,15 +8,22 @@
 include "../Includes/header.php";
 include "../Includes/variable.php";
 ?>
-<h3> Taak 1</h3>
-<div class="well well-lg">
-    <?php
-    $eendatum = date('d-m-y', strtotime("+1 days"));
-    $weekdag = date('w', strtotime("+1 days"));
+<?php
+$eendatum = date('d-m-Y', strtotime("0 days"));
+$eenweek = date('w', strtotime("0 days"));
 
-    $dagenweek = array("zondag", "maandag" ,"dinsdag" ,"woensdag", "donderdag",
-"vrijdag", "zaterdag");
+$dagNamen = array("zondag", "maandag" ,"dinsdag" ,"woensdag", "donderdag",
+    "vrijdag", "zaterdag");
 
-    echo "$eendatum is een " .$dagenweek[$weekdag];
-    ?>
-</div>
+
+// hier maak ik een variable aan en een forloop
+for ($eendatum = 0; $eendatum <7 ; $eendatum++)
+{
+    $eenweek = strtotime("+$eendatum days");
+    echo "<br>";
+    echo date('d-m-Y', $eenweek);
+    echo " en dit is dag ";
+    echo $idxweek = date('w', $eenweek);
+    echo " in deze week ".$dagNamen[$idxweek];;
+}
+?>
