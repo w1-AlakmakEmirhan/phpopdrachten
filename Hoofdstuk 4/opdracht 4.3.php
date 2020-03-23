@@ -1,28 +1,24 @@
 <?php
-/**
- * User: Emirhan
- * Date: 5/2/2020
- * Time: 11:56
- * File: Opdracht 3.1
- */
-
-include "../Includes/header.php";
-include "../Includes/variable.php";
-
+include "../includes/header.php";
 include "script.php";
-?>
-<h3> Taak 2</h3>
-<div class="well well-lg">
-    <?php
-    echo $task2
-    ?>
-</div>
-<h3>Taak 3</h3>
-<div class="well well-lg">
-    <?php
-    echo $task3
-    ?>
-</div>
-<?php
-include "../Includes/footer.php";
+
+//Hier zijn de echo's van de taken
+echo "Taak 2:".'<br>';
+echo $task2.'<br>';
+echo "Taak 3:".'<br>';
+echo $task3.'<br>';
+echo "Taak 4:".'<br>';
+echo $task4;
+echo "Taak 5:".'<br>';
+echo $task5;
+echo "Taak 6:".'<br>';
+echo $task6.'<br>';
+echo "Taak 7:".'<br>';
+echo $task7;
+
+//taak 8
+echo "Taak 8:".'<br>';
+echo $task2.'<br>'.$task3.$task4.$task5.$task6.$task7;
+include '../includes/variable.php';
+include '../includes/footer.php';
 ?>
