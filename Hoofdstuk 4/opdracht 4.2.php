@@ -13,7 +13,7 @@
 <?php
 include '../includes/Header.php';
 ?>
-<p>Uitwerking opdracht 4.2php
+<p>Uitwerking opdracht  4.2php
 </p>
 <?php
 include '../Hoofdstuk 4/script.php';
