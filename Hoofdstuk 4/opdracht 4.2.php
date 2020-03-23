@@ -9,17 +9,21 @@
 <title>
     Opdracht4.2
 </title>
+<?php
+include '4.2 script.php';
+?>
 <link href="../Hoofdstuk%204/opdracht4.2.css" type="text/css" rel="stylesheet">
 <?php
 include '../includes/Header.php';
 ?>
-<p>Uitwerking opdracht  4.2php
+<p>
+    Uitwerking opdracht  4.2php
 </p>
 <?php
 include '../Hoofdstuk 4/script.php';
 ?>
 <?php
-echo "Voor het vak <span>" .$courseName. " </span>heb ik <span>" .$teacherName. " </span>.";
+echo "Voor het vak <span>" .$courseName. " </span> heb ik <span>" .$teacherName. " </span>.";
 ?>
 <?php
 include '../includes/footer.php';
