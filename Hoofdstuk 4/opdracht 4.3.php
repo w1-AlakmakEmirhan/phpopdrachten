@@ -18,7 +18,6 @@ echo $task7;
 
 //taak 8
 echo "Taak 8:".'<br>';
-echo $task2.'<br>'.$task3.$task4.$task5.$task6.$task7;
 include '../includes/variable.php';
 include '../includes/footer.php';
 ?>

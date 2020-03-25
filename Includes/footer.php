@@ -27,5 +27,6 @@ include '../Includes/variable.php';
 
     ?>
 </footer>
+</main>
 </body>
 </html>

@@ -10,3 +10,5 @@
 <aside>
     <a href="../Hoofdstuk%202/index.php">Home</a>
     <br>
+    </aside>
+<main>

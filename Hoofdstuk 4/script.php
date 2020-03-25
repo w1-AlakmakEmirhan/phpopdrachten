@@ -72,28 +72,29 @@ for ($leeftijd=17; $leeftijd >=0; $leeftijd--)
 
 
     switch ($leeftijd)
-    {
-        case 4:
-            $lifephase = " In $jaartal was ik $leeftijd  en werd ik een kleuter";
-            break;
-        case 2:
-            $lifephase = " In $jaartal was ik $leeftijd  en werd ik een peuter";
-            break;
-        case 8:
-            $lifephase = " In $jaartal was ik $leeftijd  en werd ik een tiener";
-            break;
-        case 12:
-            $lifephase = " In $jaartal was ik $leeftijd  en werd ik een puber";
-            break;
-        case 18:
-            $lifephase = " In $jaartal was ik $leeftijd  en werd ik een adolescent";
-            break;
-        case 20:
-            $lifephase = " In $jaartal was ik $leeftijd  en werd ik een volwassen";
-            break;
-        default:
-            $lifephase = "";
-            break;
+        {
+            case 4:
+                $lifephase = " In $jaartal was ik $leeftijd  en werd ik een kleuter";
+                break;
+            case 2:
+                $lifephase = " In $jaartal was ik $leeftijd  en werd ik een peuter";
+                break;
+            case 8:
+                $lifephase = " In $jaartal was ik $leeftijd  en werd ik een tiener";
+                break;
+            case 12:
+                $lifephase = " In $jaartal was ik $leeftijd  en werd ik een puber";
+                break;
+            case 18:
+                $lifephase = " In $jaartal was ik $leeftijd  en werd ik een adolescent";
+                break;
+            case 20:
+                $lifephase = " In $jaartal was ik $leeftijd  en werd ik een volwassen";
+                break;
+            default:
+
+                $lifephase = "In $jaartal was ik $leeftijd";
+                break;
     }
 
     $task7 .=  "<br>".$lifephase;
