@@ -93,10 +93,10 @@
             <li>Hoofdstuk 7
                 <ul>
                     <li>
-                        <a href="">Opdracht 7.1</a>
+                        <a href="../Hoofdstuk%207/7.1.php">Opdracht 7.1</a>
                     </li>
                     <li>
-                        <a href="">Opdracht 7.2</a>
+                        <a href="../Hoofdstuk%207/7.2.php">Opdracht 7.2</a>
                     </li>
                     <li>
                         <a href="">Opdracht 7.3</a>
